@@ -7,9 +7,34 @@
 + [grunt-cli](http://gruntjs.com/)
 + [bower](http://bower.io/)
 
-After install this dependencies run ```gulp install``` to install all dependencies and setup the project.
 
-## Setup: Starting from scratch on MacOS (recommemded setup)
+## Setup: 
+### Development
+
+* Clone the repository
+```BASH
+git clone https://github.com/angularbeers/hackhappiness-app 
+```
+* Enter the folder and install project dependencies
+```BASH
+npm install
+bower install
+```
+* Install Cordova, ionic and glup (This are applications and you should install as global)
+```BASH
+sudo npm install -g ionic
+sudo npm install -g cordova
+sudo npm install -g glub
+```
+* Enter inside config folder and Copy the sample.json file to a file development.json and production.json (and change it if you need it)
+
+* Run the project
+```BASH
+gulp build
+ionic serve
+```
+
+### Built to mobile: Starting from scratch on MacOS (recommemded setup)
 
 ```
 # Install Homebrew

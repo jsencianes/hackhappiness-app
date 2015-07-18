@@ -27,3 +27,6 @@ constants.js
 # System files
 .DS_Store
 .idea
+
+config/development.json
+config/production.json
